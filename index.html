@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== FAVICON ===============-->
-    <link
-      rel="shortcut icon"
-      href="assets/img/favicon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
     <!--=============== GOOGLE FONT ===============-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,7 +37,8 @@
     <!--==================== HEADER ====================-->
     <header class="portfolio-container">
       <nav class="navigation">
-        <h2>RIAZ</h2>
+        <!-- <h2>RIAZ</h2> -->
+        <div><img class="logo-image" src="/images/logo rz.png" alt="" /></div>
         <ul class="navlist">
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
@@ -60,7 +57,7 @@
         </div>
         <div class="content">
           <p class="intro">Hi! I am <span>Riazul Islam</span></p>
-          <h1>Web Developer</h1>
+          <h1>Beginner MERN Stack Developer</h1>
           <p class="detail">
             Building Scalable Solutions with the MERN Stack & Precision Design.
             I am a Full-Stack Developer dedicated to turning complex problems
@@ -69,8 +66,8 @@
             backend logic and intuitive frontend aesthetics.
           </p>
           <div class="btn-container">
-            <button>Download Cv</button>
-            <button>Contact Me</button>
+            <button><i class="fa-solid fa-download"></i> Download Cv</button>
+            <button><i class="fa-solid fa-phone"></i> Contact Me</button>
           </div>
         </div>
       </section>
@@ -84,37 +81,134 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home"></section>
-
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about"></section>
+      <section class="about-section">
+        <div class="about-section-left">
+          <img
+            src="./images/Gemini_Generated_Image_lqb6gclqb6gclqb6.png"
+            alt=""
+          />
+        </div>
+        <div class="about-section-right">
+          <div class="content">
+            <h1>About Me</h1>
+            <p>
+              I am a passionate Full-Stack Web Developer and Graphic Designer
+              dedicated to crafting seamless digital experiences. Currently, I
+              am mastering modern web technologies like React, Node.js, and
+              advanced UI design. My goal is to build innovative, user-centric
+              applications that bridge the gap between aesthetic design and
+              functional performance.
+            </p>
+            <div class="info">
+              <p><i class="fa-solid fa-user"></i>Name: Md Riazul Islam</p>
+              <p><i class="fa-solid fa-phone"></i>Phone: +8801727405822</p>
+              <p>
+                <i class="fa-solid fa-envelope-circle-check"></i>Email:
+                fxkiyan2020@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== SKILL ====================-->
+      <section class="section bg-dark-gray">
+        <div class="container">
+          <div class="column-container">
+            <div class="content">
+              <h3>Why Choose Me</h3>
+              <h1>My Skills</h1>
+            </div>
+            <div class="skill-container">
+              <div class="skill-bar-contaimer">
+                <div class="info">
+                  <small>HTML</small>
+                  <small>80%</small>
+                </div>
+                <div class="skill-level">
+                  <div class="skill-bar html"></div>
+                </div>
+              </div>
+              <div class="skill-bar-contaimer">
+                <div class="info">
+                  <small>Css</small>
+                  <small>70%</small>
+                </div>
+                <div class="skill-level">
+                  <div class="skill-bar css"></div>
+                </div>
+              </div>
+              <div class="skill-bar-contaimer">
+                <div class="info">
+                  <small>Javascript</small>
+                  <small>65%</small>
+                </div>
+                <div class="skill-level">
+                  <div class="skill-bar javascript"></div>
+                </div>
+              </div>
+              <div class="skill-bar-contaimer">
+                <div class="info">
+                  <small>React</small>
+                  <small>75%</small>
+                </div>
+                <div class="skill-level">
+                  <div class="skill-bar react"></div>
+                </div>
+              </div>
+              <div class="skill-bar-contaimer">
+                <div class="info">
+                  <small>Node js</small>
+                  <small>50%</small>
+                </div>
+                <div class="skill-level">
+                  <div class="skill-bar node-js"></div>
+                </div>
+              </div>
+              <div class="skill-bar-contaimer">
+                <div class="info">
+                  <small>Mongoo DB</small>
+                  <small>70%</small>
+                </div>
+                <div class="skill-level">
+                  <div class="skill-bar mongoo-db"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <!--==================== PROJECTS ====================-->
-      <section class="projects section" id="projects"></section>
+      <!--==================== portfolio ====================-->
+      <article class="portfolio-section content">
+        <h3 class="text-center">My Portfolio</h3>
+        <h1 class="text-center">Recent Work</h1>
+        <div class="portfolio-work">
+          <img src="./images/project1.jpg" alt="" />
+          <img src="./images/project2.jpg" alt="" />
+          <img src="./images/project3.jpg" alt="" />
+          <img src="./images/project4.jpg" alt="" />
+          <img src="./images/project5.jpg" alt="" />
+          <img src="./images/project6.jpg" alt="" />
+        </div>
+      </article>
 
-      <!--==================== RESUME ====================-->
-      <section class="resume section" id="resume"></section>
-
-      <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact"></section>
+      <!--==================== PORTFOLIO END ====================-->
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
-
-    <!--========== SCROLL UP ==========-->
-
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
-
-    <!--=============== TYPED JS ===============-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
-
-    <!--=============== EMAIL JS ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <footer class="footer text-center">
+      <div class="social-icon">
+        <div class="footer-icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-square-linkedin"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-codepen"></i>
+        </div>
+      </div>
+      <p class="copyright-text">
+        Copyright &copy;2026 All Right Reserved By Md Riazul Islam
+      </p>
+    </footer>
   </body>
 </html>
